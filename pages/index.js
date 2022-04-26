@@ -13,7 +13,7 @@ export default function Home() {
             <span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-[8px] py-[3px] rounded-full font-bold">
                 UX
             </span>
-            <ul className='inline-flex space-x-[30px] text-white'>
+            <ul className='lg:inline-flex space-x-[30px] text-white hidden'>
                 <li>
                     <a href='#home'>Home</a>
                 </li>
@@ -21,17 +21,22 @@ export default function Home() {
                     <a href='#sobre'>Sobre</a>
                 </li>
                 <li>
-                    <a>Experiência</a>
+                    <a href='#exp'>Experiência</a>
                 </li>
                 <li>
-                    <a>Projetos</a>
+                    <a href='#projetos'>Projetos</a>
+                </li>
+            </ul>
+            <ul className='inline-flex space-x-[30px] text-white lg:hidden'>
+                <li>
+                    <a href='#home'>Nav</a>
                 </li>
             </ul>
         </nav>
         <main className=''>
         {/* Section Home */}
-        <section id="home" className='h-screen lg:min-h-[600px] min-h-[900px] w-full bg-zinc-900 px-[50px] pt-[60px]'>
-            <article className='max-w-[1024px] mx-auto h-full grid gap-[20px] lg:grid-cols-2'>
+        <section id="home" className='h-screen lg:min-h-[600px] min-h-[900px] w-full bg-zinc-900 lg:px-[50px] pt-[60px]'>
+            <article className='max-w-[1024px] w-full mx-auto h-full grid gap-[20px] lg:grid-cols-2'>
                 <section className='flex flex-col justify-center lg:items-start items-center lg:py-0 py-[50px]'>
                     <p className='text-white uppercase text-[32px]'>Olá, eu sou</p>
                     <span className="bg-clip-text font-medium text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 text-[50px] uppercase lg:text-left text-center">
@@ -150,7 +155,7 @@ export default function Home() {
             </article>
         </section>
         {/* Section Projetos */}
-        <section id="sobre" className='w-full bg-zinc-800 px-[50px] py-[60px]'>
+        <section id="projetos" className='w-full bg-zinc-800 px-[50px] py-[60px]'>
             <h2 className='text-[28px] text-white uppercase text-center mb-[40px]'>Projetos</h2>
             <article className='max-w-[1024px] mx-auto grid gap-[40px] md:grid-cols-2'>
                 <div className='flex flex-col w-full group space-y-[20px]'>

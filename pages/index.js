@@ -35,7 +35,7 @@ export default function Home() {
         </nav>
         <main className=''>
         {/* Section Home */}
-        <section id="home" className='h-screen lg:min-h-[600px] min-h-[900px] w-full bg-zinc-900 lg:px-[50px] pt-[60px]'>
+        <section id="home" className='h-screen lg:min-h-[600px] min-h-[900px] w-full bg-zinc-900 lg:px-[50px] px-[20px] pt-[60px]'>
             <article className='max-w-[1024px] w-full mx-auto h-full grid gap-[20px] lg:grid-cols-2'>
                 <section className='flex flex-col justify-center lg:items-start items-center lg:py-0 py-[50px]'>
                     <p className='text-white uppercase text-[32px]'>Olá, eu sou</p>
@@ -43,7 +43,7 @@ export default function Home() {
                         Washington Santos
                     </span>
                     <p className='text-white uppercase text-[32px]'>UX / Designer</p>
-                    <ul className='inline-flex space-x-[50px] text-white mt-[50px]'>
+                    <ul className='inline-flex lg:space-x-[50px] space-x-[20px] text-white mt-[50px]'>
                         <li>
                         <button className='bg-gradient-to-r from-green-400 to-blue-500 leading-none group rounded py-[10px] px-[16px] relative overflow-hidden flex items-center justify-center text-transparent text-[20px]'>
                             Linkedin
@@ -61,12 +61,12 @@ export default function Home() {
                     </ul>
                 </section>
                 <section className='flex flex-col justify-center lg:items-start items-center'>
-                    <span className='lg:w-full w-[380px] mx-auto h-[380px] bg-center bg-cover bg-no-repeat' style={{backgroundImage: `url('img/ll.svg')`}}></span>
+                    <span className='w-full lg:w-[380px] mx-auto h-[380px] bg-center bg-cover bg-no-repeat' style={{backgroundImage: `url('img/ll.svg')`}}></span>
                 </section>
             </article>
         </section>
         {/* Section Sobre */}
-        <section id="sobre" className='w-full bg-zinc-800 px-[50px] py-[60px]'>
+        <section id="sobre" className='w-full bg-zinc-800 lg:px-[50px] px-[20px] py-[60px]'>
             <article className='max-w-[1024px] mx-auto grid gap-[20px] grid-cols-4'>
                 <section className='lg:col-span-1 md:col-span-2 col-span-4'>
                     <div className='bg-zinc-900 pb-[100%] border-l-[5px] border-indigo-500 bg-center bg-no-repeat bg-cover relative w-full' style={{backgroundImage: `url('https://source.unsplash.com/random/500x500?user')`}}>
@@ -90,7 +90,7 @@ export default function Home() {
                         <p>Serra - ES</p>
                         <p>Profissional Graduado em Análise e Desenvolvimento de Sistemas pela UCL,  com mais de 3 anos de experiência na área de desenvolvimento de sistemas web, criação de telas e prototipação. Migrei da área de programação para UI UX Designer após perceber maior afinidade.</p>
                     </section>
-                    <ul className='inline-flex space-x-[30px] text-white'>
+                    <ul className='inline-flex lg:space-x-[30px] space-x-[10px] text-white'>
                         <li>
                             <button className='bg-blue-500 leading-none group rounded py-[10px] px-[16px] relative overflow-hidden flex items-center justify-center text-transparent text-[20px]'>
                                 Curriculo
@@ -110,7 +110,7 @@ export default function Home() {
             </article>
         </section>
         {/* Section Experiencia */}
-        <section id="exp" className='w-full bg-zinc-900 px-[50px] py-[60px]'>
+        <section id="exp" className='w-full bg-zinc-900 lg:px-[50px] px-[20px] py-[60px]'>
             <article className='max-w-[1024px] mx-auto grid gap-[20px] grid-cols-4'>
                 <section className='col-span-4 mb-[20px]'>
                     <h1 className='text-[28px] text-white uppercase'>Experiência</h1>
@@ -135,7 +135,7 @@ export default function Home() {
                     <h2 className='text-white text-[24px] leading-10'>Em busca de nova oportunidade de crescimento profissional</h2>
                     <h3 className='text-white text-[16px] leading-10'>Quem sabe na sua empresa...</h3>
                     <h3 className='text-white text-[16px] leading-10'>Estou disponível para bater um papo, você pode entrar em contato via:</h3>
-                    <ul className='inline-flex space-x-[30px] mt-[30px] text-white'>
+                    <ul className='inline-flex lg:space-x-[30px] space-x-[10px] mt-[30px] text-white'>
                         <li>
                             <button className='bg-green-500 leading-none group rounded py-[10px] px-[16px] relative overflow-hidden flex items-center justify-center text-transparent text-[20px]'>
                                 WhatsApp
@@ -155,7 +155,7 @@ export default function Home() {
             </article>
         </section>
         {/* Section Projetos */}
-        <section id="projetos" className='w-full bg-zinc-800 px-[50px] py-[60px]'>
+        <section id="projetos" className='w-full bg-zinc-800 lg:px-[50px] px-[20px] py-[60px]'>
             <h2 className='text-[28px] text-white uppercase text-center mb-[40px]'>Projetos</h2>
             <article className='max-w-[1024px] mx-auto grid gap-[40px] md:grid-cols-2'>
                 <div className='flex flex-col w-full group space-y-[20px]'>
